@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87B13EBC1410CBD600A69A92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B13EBB1410CBD600A69A92 /* UIKit.framework */; };
+		87B13EBE1410CBD600A69A92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B13EBD1410CBD600A69A92 /* Foundation.framework */; };
+		87B13EC01410CBD600A69A92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B13EBF1410CBD600A69A92 /* CoreGraphics.framework */; };
+		87B13EC61410CBD600A69A92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87B13EC41410CBD600A69A92 /* InfoPlist.strings */; };
+		87B13EC91410CBD600A69A92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B13EC81410CBD600A69A92 /* main.m */; };
+		87B13ECC1410CBD600A69A92 /* GCDDrawAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B13ECB1410CBD600A69A92 /* GCDDrawAppDelegate.m */; };
+		87B13ECF1410CBD600A69A92 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87B13ECD1410CBD600A69A92 /* MainWindow.xib */; };
+		87B13ED21410CBD600A69A92 /* GCDDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B13ED11410CBD600A69A92 /* GCDDrawViewController.m */; };
+		87B13ED51410CBD600A69A92 /* GCDDrawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87B13ED31410CBD600A69A92 /* GCDDrawViewController.xib */; };
+		87B13EDD1410CC4D00A69A92 /* GCDDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B13EDC1410CC4D00A69A92 /* GCDDrawView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87B13EB71410CBD600A69A92 /* GCDDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B13EBB1410CBD600A69A92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87B13EBD1410CBD600A69A92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87B13EBF1410CBD600A69A92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87B13EC31410CBD600A69A92 /* GCDDraw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GCDDraw-Info.plist"; sourceTree = "<group>"; };
+		87B13EC51410CBD600A69A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87B13EC71410CBD600A69A92 /* GCDDraw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCDDraw-Prefix.pch"; sourceTree = "<group>"; };
+		87B13EC81410CBD600A69A92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87B13ECA1410CBD600A69A92 /* GCDDrawAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDDrawAppDelegate.h; sourceTree = "<group>"; };
+		87B13ECB1410CBD600A69A92 /* GCDDrawAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDDrawAppDelegate.m; sourceTree = "<group>"; };
+		87B13ECE1410CBD600A69A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		87B13ED01410CBD600A69A92 /* GCDDrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDDrawViewController.h; sourceTree = "<group>"; };
+		87B13ED11410CBD600A69A92 /* GCDDrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDDrawViewController.m; sourceTree = "<group>"; };
+		87B13ED41410CBD600A69A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GCDDrawViewController.xib; sourceTree = "<group>"; };
+		87B13EDB1410CC4D00A69A92 /* GCDDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDDrawView.h; sourceTree = "<group>"; };
+		87B13EDC1410CC4D00A69A92 /* GCDDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDDrawView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87B13EB41410CBD600A69A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B13EBC1410CBD600A69A92 /* UIKit.framework in Frameworks */,
+				87B13EBE1410CBD600A69A92 /* Foundation.framework in Frameworks */,
+				87B13EC01410CBD600A69A92 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87B13EAC1410CBD600A69A92 = {
+			isa = PBXGroup;
+			children = (
+				87B13EC11410CBD600A69A92 /* GCDDraw */,
+				87B13EBA1410CBD600A69A92 /* Frameworks */,
+				87B13EB81410CBD600A69A92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87B13EB81410CBD600A69A92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87B13EB71410CBD600A69A92 /* GCDDraw.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87B13EBA1410CBD600A69A92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87B13EBB1410CBD600A69A92 /* UIKit.framework */,
+				87B13EBD1410CBD600A69A92 /* Foundation.framework */,
+				87B13EBF1410CBD600A69A92 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87B13EC11410CBD600A69A92 /* GCDDraw */ = {
+			isa = PBXGroup;
+			children = (
+				87B13EDB1410CC4D00A69A92 /* GCDDrawView.h */,
+				87B13EDC1410CC4D00A69A92 /* GCDDrawView.m */,
+				87B13ECA1410CBD600A69A92 /* GCDDrawAppDelegate.h */,
+				87B13ECB1410CBD600A69A92 /* GCDDrawAppDelegate.m */,
+				87B13ECD1410CBD600A69A92 /* MainWindow.xib */,
+				87B13ED01410CBD600A69A92 /* GCDDrawViewController.h */,
+				87B13ED11410CBD600A69A92 /* GCDDrawViewController.m */,
+				87B13ED31410CBD600A69A92 /* GCDDrawViewController.xib */,
+				87B13EC21410CBD600A69A92 /* Supporting Files */,
+			);
+			path = GCDDraw;
+			sourceTree = "<group>";
+		};
+		87B13EC21410CBD600A69A92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87B13EC31410CBD600A69A92 /* GCDDraw-Info.plist */,
+				87B13EC41410CBD600A69A92 /* InfoPlist.strings */,
+				87B13EC71410CBD600A69A92 /* GCDDraw-Prefix.pch */,
+				87B13EC81410CBD600A69A92 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87B13EB61410CBD600A69A92 /* GCDDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B13ED81410CBD600A69A92 /* Build configuration list for PBXNativeTarget "GCDDraw" */;
+			buildPhases = (
+				87B13EB31410CBD600A69A92 /* Sources */,
+				87B13EB41410CBD600A69A92 /* Frameworks */,
+				87B13EB51410CBD600A69A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCDDraw;
+			productName = GCDDraw;
+			productReference = 87B13EB71410CBD600A69A92 /* GCDDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87B13EAE1410CBD600A69A92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "いります電算企画";
+			};
+			buildConfigurationList = 87B13EB11410CBD600A69A92 /* Build configuration list for PBXProject "GCDDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87B13EAC1410CBD600A69A92;
+			productRefGroup = 87B13EB81410CBD600A69A92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87B13EB61410CBD600A69A92 /* GCDDraw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87B13EB51410CBD600A69A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B13EC61410CBD600A69A92 /* InfoPlist.strings in Resources */,
+				87B13ECF1410CBD600A69A92 /* MainWindow.xib in Resources */,
+				87B13ED51410CBD600A69A92 /* GCDDrawViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87B13EB31410CBD600A69A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B13EC91410CBD600A69A92 /* main.m in Sources */,
+				87B13ECC1410CBD600A69A92 /* GCDDrawAppDelegate.m in Sources */,
+				87B13ED21410CBD600A69A92 /* GCDDrawViewController.m in Sources */,
+				87B13EDD1410CC4D00A69A92 /* GCDDrawView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87B13EC41410CBD600A69A92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B13EC51410CBD600A69A92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87B13ECD1410CBD600A69A92 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B13ECE1410CBD600A69A92 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		87B13ED31410CBD600A69A92 /* GCDDrawViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B13ED41410CBD600A69A92 /* en */,
+			);
+			name = GCDDrawViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87B13ED61410CBD600A69A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87B13ED71410CBD600A69A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		87B13ED91410CBD600A69A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GCDDraw/GCDDraw-Prefix.pch";
+				INFOPLIST_FILE = "GCDDraw/GCDDraw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87B13EDA1410CBD600A69A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GCDDraw/GCDDraw-Prefix.pch";
+				INFOPLIST_FILE = "GCDDraw/GCDDraw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87B13EB11410CBD600A69A92 /* Build configuration list for PBXProject "GCDDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B13ED61410CBD600A69A92 /* Debug */,
+				87B13ED71410CBD600A69A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B13ED81410CBD600A69A92 /* Build configuration list for PBXNativeTarget "GCDDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B13ED91410CBD600A69A92 /* Debug */,
+				87B13EDA1410CBD600A69A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87B13EAE1410CBD600A69A92 /* Project object */;
+}
